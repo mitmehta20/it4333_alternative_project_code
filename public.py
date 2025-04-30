@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/unblocked')
 def hello():
-    return "This is the EC2 instance in the unblocked public subnet!"
+    return "This is the EC2 instance in the unblocked public subnet!\n"
 
 @app.route('/private-test')
 def privateTest():
