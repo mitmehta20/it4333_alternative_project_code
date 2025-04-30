@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/blocked')
 def hello():
     return "This is the EC2 instance in the blocked private subnet!"
 
